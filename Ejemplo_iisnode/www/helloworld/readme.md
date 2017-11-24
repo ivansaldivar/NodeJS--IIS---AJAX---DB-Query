@@ -8,3 +8,6 @@ Cada botón ejecuta una operación AJAX que tiene como endpoint una URL que apun
 quedarte en el IIS algo como se ve en la figura siguiente para que los ejemplos se ejecuten como corresponde, además de tener en 
 tus base de datos (MySQL o SQLServer los objetos -tablas o procedimientos almacenados- que vayas a invocar desde node:
 
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS.png).
+
+Te recomiendo que modifiques las consultas SQL con unas correspondientes a tablas que ya existen en tus bases de datos para que no tengas que estar creando desde cero. Si en el ejemplo, uso un SELECT a una tabla, reemplaza por una tabl que exista en tu base, sea esta MySQL o SQLServer. 
