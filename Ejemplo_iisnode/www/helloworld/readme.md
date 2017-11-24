@@ -11,3 +11,18 @@ tus base de datos (MySQL o SQLServer los objetos -tablas o procedimientos almace
 ![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS.png).
 
 Te recomiendo que modifiques las consultas SQL con unas correspondientes a tablas que ya existen en tus bases de datos para que no tengas que estar creando desde cero. Si en el ejemplo, uso un SELECT a una tabla, reemplaza por una tabl que exista en tu base, sea esta MySQL o SQLServer. 
+
+
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS%202.png).
+
+# Devolviendo texto vía AJAX desde NodeJS 
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS%203.png).
+
+# Devolviendo código HTML vía AJAX desde NodeJS
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS%204.png).
+
+# Realizando un llamado AJAX a NodeJS que consulta a una base MySQL
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS%205.png).
+
+# Realizando un llamado AJAX a NodeJS que consulta a una base SQLServer
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/iisnode%20en%20IIS%206.png).
