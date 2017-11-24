@@ -12,3 +12,5 @@ a MySQL y SQLServer, demuestran la potencia y desempeño de node al operar con t
 información que se recupera desde algún administrador de base de datos. 
 
 ![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/instalando%20modulo%20iisnode.png).
+
+El instalador trae algunos ejemplos básico. Además les dejo algunos ejemplo de nodeJS usados para conectar a MySQL y SQLServer. 
