@@ -1,0 +1,23 @@
+<!DOCTYPE html>  
+<html>  
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+  <h1>PROBANDO UN SERVICIO CON NodeJS</h1>
+      En tres segundos se dispara el proceso del servicio NodeJs...
+  </body>
+    <script>
+    var i = setTimeout('ExecNodeJS_Call()',3000);
+        
+    function ExecNodeJS_Call(){
+      document.location.href="hello.js";  
+    }
+    </script>    
+</html>
