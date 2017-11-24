@@ -14,3 +14,5 @@ información que se recupera desde algún administrador de base de datos.
 ![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/instalando%20modulo%20iisnode.png).
 
 El instalador trae algunos ejemplos básico. Además les dejo algunos ejemplo de nodeJS usados para conectar a MySQL y SQLServer. 
+
+En el directorio Ejemplo_iisnode, encontrarán otros cuatro más, creen a partir de ellos, en IIS, las aplicaciones virtuales que se direccionarán a cada uno. Lo importante para que IIS administre correctamente a cada aplicación es la declaración del módulo que se utiliza para las aplicaciones de node:
