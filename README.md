@@ -10,3 +10,5 @@ En el encontrarán todo lo que necesitan para hospedar y administrar desde Inter
 ello poder sacar toda la potencia de este framework Javascript del lado del servidor. Las pruebas que he realizado usando conexiones
 a MySQL y SQLServer, demuestran la potencia y desempeño de node al operar con tareas que involucran administración de contenido e 
 información que se recupera desde algún administrador de base de datos. 
+
+![](https://raw.githubusercontent.com/ivansaldivar/NodeJS--IIS---AJAX---DB-Query/master/instalando%20modulo%20iisnode.png).
