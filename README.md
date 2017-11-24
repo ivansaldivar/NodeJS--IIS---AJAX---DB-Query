@@ -19,15 +19,17 @@ En el directorio Ejemplo_iisnode, encontrarán otros cuatro más, creen a partir
 
     * Archivo config.web en IIS para las aplicaciones de nodeJS
     
-    <?xml version="1.0" encoding="UTF-8"?>
     <configuration>
-        <system.webServer>
-            <defaultDocument>
-                <files>
-                    <add value="index.htm" />
-                </files>
-            </defaultDocument>
-        </system.webServer>
+      <system.webServer>
+
+        <!-- indicates that the hello.js file is a node.js application 
+        to be handled by the iisnode module -->
+
+        <handlers>
+          <add name="iisnode" path="hello.js" verb="*" modules="iisnode" />
+        </handlers>
+
+      </system.webServer>
     </configuration>
 
 
