@@ -16,3 +16,18 @@ información que se recupera desde algún administrador de base de datos.
 El instalador trae algunos ejemplos básico. Además les dejo algunos ejemplo de nodeJS usados para conectar a MySQL y SQLServer. 
 
 En el directorio Ejemplo_iisnode, encontrarán otros cuatro más, creen a partir de ellos, en IIS, las aplicaciones virtuales que se direccionarán a cada uno. Lo importante para que IIS administre correctamente a cada aplicación es la declaración del módulo que se utiliza para las aplicaciones de node:
+
+    * Archivo config.web en IIS para las aplicaciones de nodeJS
+    
+    <?xml version="1.0" encoding="UTF-8"?>
+    <configuration>
+        <system.webServer>
+            <defaultDocument>
+                <files>
+                    <add value="index.htm" />
+                </files>
+            </defaultDocument>
+        </system.webServer>
+    </configuration>
+
+
